@@ -4,20 +4,72 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>responsive form</title>
   </head>
   <body>
     <div class="container">
       <div class="card">
         <div class="content1">
-          <h2>Learn to code by watching other</h2>
-          <p>
+          <h2>Learn to code by watching others</h2>
+          <p class="innertext">
             See how experienced developers solve problems in real time. Watching
             scripted tutorials is great but understanding how developers think
-            is invaluables
+            is invaluables.
           </p>
         </div>
-        <div class="content2"></div>
+        <div class="content2">
+          <div class="centerbox">
+            <p class="centertext">
+              <span class="smalltext">Try it free 7days </span>then $20/mo.
+              thereafter
+            </p>
+          </div>
+          <div class="divform">
+            <form action="">
+              <input
+                type="text"
+                name="firstname"
+                placeholder="First Name"
+                required
+              />
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Last Name"
+                required
+              />
+              <input type="email" name="email" placeholder="Email Address" />
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                required
+              />
+              <input
+                type="submit"
+                class="submit"
+                value="CLAIM YOUR FREE TRIAL"
+              />
+            </form>
+            <p class="tos">
+              By clicking the button you are agreeing to our
+              <span class="smallertext"> Terms and Services</span>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
